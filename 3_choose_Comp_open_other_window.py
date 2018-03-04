@@ -7,7 +7,7 @@ class Choose_Win:
     def __init__(self):
 
 
-        self.r=Tk()
+        self.r=Tk())
         frame = Frame(self.r)
         frame.pack()
 
