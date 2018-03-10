@@ -14,7 +14,7 @@ import tkinter.ttk as ttk  #That code causes several tkinter.ttk
 class Emp_Window:
     
     def __init__(self,root, labelframe):
-        idlabel = Label(labelframe, text="ID")
+        idlabel = Label(labelframe, text="ID", bg='red')
         idlabel.pack(anchor=NW)
         id=StringVar(master=root)
         idEntry=Entry(labelframe,bd=2,textvariable=id)
