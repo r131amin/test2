@@ -13,7 +13,7 @@ class Choose_Win:
 
         self.r.title("In the name of ALLH")
 
-        optionList = ['Emp Window', 'Department']
+        optionList = ['Emp Window for test 2', 'Department Window for test 2']
         self.choosedWin = StringVar(master=self.r)
         #self.choosedlevel.set(optionList[0])
         om = OptionMenu(self.r, self.choosedWin, *optionList)
